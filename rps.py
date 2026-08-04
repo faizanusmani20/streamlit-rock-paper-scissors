@@ -329,7 +329,7 @@ def reset_match():
 # ----------------------------- MATCH OVER -----------------------------
 if st.session_state.match_over:
     if st.session_state.player_score > st.session_state.comp_score:
-        st.markdown('<div class="result-banner win">🏆 MATCH WON! Great game, Faizan!</div>', unsafe_allow_html=True)
+        st.markdown('<div class="result-banner win">🏆 MATCH WON! Great game</div>', unsafe_allow_html=True)
         st.balloons()
     else:
         st.markdown('<div class="result-banner lose">💀 MATCH LOST! Computer takes it this time.</div>', unsafe_allow_html=True)
